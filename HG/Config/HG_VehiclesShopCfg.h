@@ -27,29 +27,61 @@ class HG_DefaultShop // HG_DefaultShop is just a placeholder for testing purpose
 {
     conditionToAccess = "true"; // Example: "(playerSide in [west,independent]) AND ((rank player) isEqualTo 'COLONEL')"
 	
-    class Civilian
+    class ALFA
 	{
-	    displayName = "$STR_HG_SHOP_CIVILIAN";
+	    displayName = "Alfa Romeo";
 		vehicles[] =
 		{
-		    {"C_SUV_01_F",15000,"true"}
+		    {"AlessioQuadrifoglio",30000,"true"},
+			{"AlessioQuadrifoglioC",30000,"true"},
+			{"AlessioQuadrifoglioG",30000,"true"},
+			{"AlessioQuadrifoglioM",30000,"true"}
 		};
 	    spawnPoints[] =
 		{
-			{"$STR_HG_MARKER_1",{"civilian_vehicles_spawn_1"}}
+			{"Spawn Point #1",{"civilian_vehicles_spawn_1"}}
 		};
 	};
 	
-	class Military
+	class AUDI
 	{
-	    displayName = "$STR_HG_SHOP_MILITARY";
+	    displayName = "Audi";
 		vehicles[] =
 		{
-		    {"B_MRAP_01_F",45000,"true"}
-	    };
-		spawnPoints[] =
+		    {"AlessioRS4",25000,"true"},
+			{"AlessioRS4Chrome",25000,"true"},
+			{"AlessioRS4Gold",25000,"true"},
+			{"AlessioRS4Mat",25000,"true"},
+			{"V12_RS609_BLEU",30000,"true"},
+			{"V12_RS609_GRIS",30000,"true"},
+			{"V12_RS609_NOIR",30000,"true"},
+			{"V12_RS609_ORANGE",30000,"true"},
+			{"V12_RS609",30000,"true"}
+		};
+	    spawnPoints[] =
 		{
-			{"$STR_HG_MARKER_2",{"military_vehicles_spawn_1"}}
+			{"Spawn Point #1",{"civilian_vehicles_spawn_1"}}
+		};
+	};
+	
+	class Blackmanswilly
+	{
+	    displayName = "BMW";
+		vehicles[] =
+		{
+		    {"zorak_bmw_x6m",28000,"true"},
+			{"AlessioBM4",28000,"true"},
+			{"AlessioBMC",28000,"true"},
+			{"AlessioBMG",28000,"true"},
+			{"AlessioBM4M",28000,"true"},
+			{"AlessioM5",28000,"true"},
+			{"AlessioM5_Chrome",28000,"true"},
+			{"AlessioM5_Gold",28000,"true"},
+			{"AlessioM5Mat",28000,"true"}
+		};
+	    spawnPoints[] =
+		{
+			{"Spawn Point #1",{"civilian_vehicles_spawn_1"}}
 		};
 	};
 };
