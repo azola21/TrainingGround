@@ -20,10 +20,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={5648.5024,18.358212,1463.2937};
-		dir[]={0.22790051,-0.50912803,-0.83009535};
-		up[]={0.13481052,0.86062616,-0.49102992};
-		aside[]={-0.96442473,2.2584572e-008,-0.26478353};
+		pos[]={5665.1821,3.3499193,1460.5679};
+		dir[]={-0.85051692,-0.4622072,0.25138715};
+		up[]={-0.44332886,0.88670713,0.13103524};
+		aside[]={0.2834768,2.9917283e-007,0.9590978};
 	};
 };
 binarizationWanted=0;
@@ -4821,6 +4821,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				init="call{this addaction [""Grab medical supplies."",""presets\meds.sqf""];" \n "this addaction [""Buy a medic loadout."",""presets\meds2.sqf""];}";
 			};
 			id=40;
 			type="ACE_medicalSupplyCrate_advanced";
@@ -20330,17 +20331,18 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={5664.4648,1.55194,1464.0676};
-				angles[]={0.00059801998,2.3260527,6.2825875};
+				position[]={5664.4648,1.552,1464.068};
+				angles[]={0.00059341197,2.3260527,6.2825918};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
+				init="call{this addaction [""Grab medical supplies."",""presets\meds.sqf""];" \n "this addaction [""Buy a medic loadout."",""presets\meds2.sqf""];}";
 			};
 			id=2471;
 			type="ACE_medicalSupplyCrate_advanced";
-			atlOffset=0.00021314621;
+			atlOffset=0.00027346611;
 			class CustomAttributes
 			{
 				class Attribute0

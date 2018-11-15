@@ -1,3 +1,7 @@
+hint "Will not work without a backpack.";
+sleep 5;
+hint "Adding medical supplies to your backpack now...";
+sleep 5;
 player addItemToBackpack "ACE_fieldDressing";
 player addItemToBackpack "ACE_fieldDressing";
 player addItemToBackpack "ACE_fieldDressing";
