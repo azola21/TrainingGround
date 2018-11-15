@@ -1169,6 +1169,61 @@ class HG_ExplosiveShop // this addAction["<img image='HG\UI\Icons\money.paa' siz
 	};
 };
 
+class HG_AKATTShop // this addAction["<img image='HG\UI\Icons\money.paa' size='1.5'/><t color='#FF0000'>AK Attachments</t>",{_this call HG_fnc_dialogOnLoadItems},"HG_AKATTShop",0,false,false,"",'(alive player) && !dialog && player distance _target < 3'];
+{
+	conditionToAccess = "true"; // Example: "(playerSide in [west,independent]) AND ((rank player) isEqualTo 'COLONEL')"
+	
+	class ScopesRUS
+	{
+	    displayName = "AK Scopes";
+		items[] =
+		{
+			{"rhs_acc_1p29",150,"true"},
+			{"rhs_acc_1p63",150,"true"},
+			{"rhs_acc_1p78",150,"true"},
+			{"rhs_acc_1pn93_1",150,"true"},
+			{"rhs_acc_1pn93_2",150,"true"},
+			{"rhs_acc_ekp1",150,"true"},
+			{"rhs_acc_ekp8_02",150,"true"},
+			{"rhs_acc_nita",150,"true"},
+			{"rhs_acc_pgo7v",150,"true"},
+			{"rhs_acc_pgo7v2",150,"true"},
+			{"rhs_acc_pgo7v3",150,"true"},
+			{"rhs_acc_pkas",150,"true"},
+			{"rhs_acc_pso1m2",150,"true"},
+			{"rhs_acc_pso1m21",150,"true"}
+		};
+	};
+	
+	class MuzzleRUSAKM
+	{
+	    displayName = "AKM Muzzle Attachments";
+		items[] =
+		{
+			{"rhs_acc_dtk1l",150,"true"},
+			{"rhs_acc_dtkakm",150,"true"},
+			{"rhs_acc_pbs1",150,"true"}
+		};
+	};
+	
+	class MuzzleRUSAK74
+	{
+	    displayName = "AK-74 Muzzle Attachments";
+		items[] =
+		{
+			{"rhs_acc_uuk",120,"true"},
+			{"rhs_acc_ak5",120,"true"},
+			{"rhs_acc_dtk",120,"true"},
+			{"rhs_acc_dtk1",120,"true"},
+			{"rhs_acc_dtk2",120,"true"},
+			{"rhs_acc_dtk3",120,"true"},
+			{"rhs_acc_dtk4short",120,"true"},
+			{"rhs_acc_dtk1983",120,"true"},
+			{"rhs_acc_tgpa",120,"true"}
+		};
+	};
+};
+
 class HG_EquipmentShop // this addAction["<img image='HG\UI\Icons\money.paa' size='1.5'/><t color='#FF0000'>Equipment</t>",{_this call HG_fnc_dialogOnLoadItems},"HG_EquipmentShop",0,false,false,"",'(alive player) && !dialog && player distance _target < 3'];
 {
 	conditionToAccess = "true"; // Example: "(playerSide in [west,independent]) AND ((rank player) isEqualTo 'COLONEL')"

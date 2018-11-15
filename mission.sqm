@@ -8,7 +8,7 @@ class EditorData
 	toggles=553;
 	class ItemIDProvider
 	{
-		nextID=2546;
+		nextID=2548;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=85;
+		nextID=95;
 	};
 	class Camera
 	{
-		pos[]={5638.9834,8.7606468,1459.4351};
-		dir[]={0.52096379,-0.39936021,-0.75454676};
-		up[]={0.22696459,0.91671729,-0.32872435};
-		aside[]={-0.82301772,6.2579056e-007,-0.56824762};
+		pos[]={5679.0669,168.43829,1918.1647};
+		dir[]={-0.79355103,-0.53548092,-0.28944221};
+		up[]={-0.50313073,0.84446514,-0.18351653};
+		aside[]={-0.34272236,-4.3271575e-007,0.93958873};
 	};
 };
 binarizationWanted=0;
@@ -3304,7 +3304,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=474;
+		items=475;
 		class Item0
 		{
 			dataType="Group";
@@ -4781,7 +4781,7 @@ class Mission
 			flags=1;
 			class Attributes
 			{
-				init="call{this addAction[""<img image='HG\UI\Icons\garage.paa' size='1.5'/><t color='#FF0000'>""+(localize ""STR_HG_GARAGE"")+""</t>"",{_this call HG_fnc_dialogOnLoadGarage},""HG_DefaultGarage"",0,false,false,"""",'(alive player) && !dialog && player distance _target < 3'];    " \n "this addAction[""<img image='HG\UI\Icons\garage.paa' size='1.5'/><t color='#FF0000'>""+(localize ""STR_HG_GARAGE_PARK"")+""</t>"",{_this call HG_fnc_storeVehicleClient},""HG_DefaultGarage"",0,false,false,"""",'(alive player) && !dialog && player distance _target < 3'];}";
+				init="call{this addAction[""<img image='HG\UI\Icons\garage.paa' size='1.5'/><t color='#FF0000'>""+(localize ""STR_HG_GARAGE"")+""</t>"",{_this call HG_fnc_dialogOnLoadGarage},""HG_DefaultGarage"",0,false,false,"""",'(alive player) && !dialog && player distance _target < 3'];    " \n "this addAction[""<img image='HG\UI\Icons\garage.paa' size='1.5'/><t color='#FF0000'>""+(localize ""STR_HG_GARAGE_PARK"")+""</t>"",{_this call HG_fnc_storeVehicleClient},""HG_DefaultGarage"",0,false,false,"""",'(alive player) && !dialog && player distance _target < 3']; this addAction[""<img image='HG\UI\Icons\money.paa' size='1.5'/><t color='#FF0000'>""+(localize ""STR_HG_VEHICLES_SHOP"")+""</t>"",{_this call HG_fnc_dialogOnLoadVehicles},""HG_DefaultShop"",0,false,false,"""",'(alive player) && !dialog && player distance _target < 3'];   " \n "}";
 			};
 			id=38;
 			type="Land_i_Garage_V1_F";
@@ -9284,7 +9284,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="call{this addAction[""<img image='HG\UI\Icons\gun.paa' size='1.5'/><t color='#FF0000'>Tigg Rifles</t>"",{_this call HG_fnc_dialogOnLoadGear},""HG_TiggRiflesShop"",0,false,false,"""",'(alive player) && !dialog && player distance _target < 3'];   " \n "this addAction[""<img image='HG\UI\Icons\gun.paa' size='1.5'/><t color='#FF0000'>www.alibaba.com/jihad</t>"",{_this call HG_fnc_dialogOnLoadGear},""HG_AlibabaShop"",0,false,false,"""",'(alive player) && !dialog && player distance _target < 3']; " \n "this addAction[""<img image='HG\UI\Icons\ammo.paa' size='1.5'/><t color='#FF0000'>Sidearm Store</t>"",{_this call HG_fnc_dialogOnLoadItems},""HG_PistolShop"",0,false,false,"""",'(alive player) && !dialog && player distance _target < 3'];  " \n "this addAction[""<img image='HG\UI\Icons\ammo.paa' size='1.5'/><t color='#FF0000'>Rifle and SMG Ammunition Store</t>"",{_this call HG_fnc_dialogOnLoadItems},""HG_WestAmmoShop"",0,false,false,"""",'(alive player) && !dialog && player distance _target < 3'];   " \n "this addAction[""<img image='HG\UI\Icons\ammo.paa' size='1.5'/><t color='#FF0000'>Support Ammunition Store</t>"",{_this call HG_fnc_dialogOnLoadItems},""HG_SupportAmmoShop"",0,false,false,"""",'(alive player) && !dialog && player distance _target < 3'];   " \n "this addAction[""<img image='HG\UI\Icons\optic.paa' size='1.5'/><t color='#FF0000'>Weapon Accesories</t>"",{_this call HG_fnc_dialogOnLoadItems},""HG_WeaponAttachments"",0,false,false,"""",'(alive player) && !dialog && player distance _target < 3'];  " \n "this addAction[""<img image='HG\UI\Icons\grenade.paa' size='1.5'/><t color='#FF0000'>Grenades</t>"",{_this call HG_fnc_dialogOnLoadItems},""HG_GrenadeShop"",0,false,false,"""",'(alive player) && !dialog && player distance _target < 3']; " \n "this addAction[""<img image='HG\UI\Icons\equip.paa' size='1.5'/><t color='#FF0000'>Equipment</t>"",{_this call HG_fnc_dialogOnLoadItems},""HG_EquipmentShop"",0,false,false,"""",'(alive player) && !dialog && player distance _target < 3']; " \n "this addAction[""<img image='HG\UI\Icons\clothing.paa' size='1.5'/><t color='#FF0000'>Civilian Clothing</t>"",{_this call HG_fnc_dialogOnLoadGear},""HG_Clothing"",0,false,false,"""",'(alive player) && !dialog && player distance _target < 3'];  " \n "this addAction[""<img image='HG\UI\Icons\clothing.paa' size='1.5'/><t color='#FF0000'>Military Uniforms</t>"",{_this call HG_fnc_dialogOnLoadGear},""HG_MilitaryClothing"",0,false,false,"""",'(alive player) && !dialog && player distance _target < 3'];  " \n "this addAction[""<img image='HG\UI\Icons\clothing.paa' size='1.5'/><t color='#FF0000'>Suits</t>"",{_this call HG_fnc_dialogOnLoadGear},""HG_SpecialClothing"",0,false,false,"""",'(alive player) && !dialog && player distance _target < 3'];}";
+				init="call{this addAction[""<img image='HG\UI\Icons\gun.paa' size='1.5'/><t color='#FF0000'>Tigg Rifles</t>"",{_this call HG_fnc_dialogOnLoadGear},""HG_TiggRiflesShop"",0,false,false,"""",'(alive player) && !dialog && player distance _target < 3'];   " \n "this addAction[""<img image='HG\UI\Icons\gun.paa' size='1.5'/><t color='#FF0000'>www.alibaba.com/jihad</t>"",{_this call HG_fnc_dialogOnLoadGear},""HG_AlibabaShop"",0,false,false,"""",'(alive player) && !dialog && player distance _target < 3']; " \n "this addAction[""<img image='HG\UI\Icons\sig.paa' size='1.5'/><t color='#FF0000'>Sig Sauer Store</t>"",{_this call HG_fnc_dialogOnLoadGear},""HG_SigRiflesShop"",0,false,false,"""",'(alive player) && !dialog && player distance _target < 3']; " \n "this addAction[""<img image='HG\UI\Icons\ammo.paa' size='1.5'/><t color='#FF0000'>Sidearm Store</t>"",{_this call HG_fnc_dialogOnLoadItems},""HG_PistolShop"",0,false,false,"""",'(alive player) && !dialog && player distance _target < 3'];  " \n "this addAction[""<img image='HG\UI\Icons\ammo.paa' size='1.5'/><t color='#FF0000'>Rifle and SMG Ammunition Store</t>"",{_this call HG_fnc_dialogOnLoadItems},""HG_WestAmmoShop"",0,false,false,"""",'(alive player) && !dialog && player distance _target < 3'];   " \n "this addAction[""<img image='HG\UI\Icons\ammo.paa' size='1.5'/><t color='#FF0000'>Support Ammunition Store</t>"",{_this call HG_fnc_dialogOnLoadItems},""HG_SupportAmmoShop"",0,false,false,"""",'(alive player) && !dialog && player distance _target < 3'];   " \n "this addAction[""<img image='HG\UI\Icons\optic.paa' size='1.5'/><t color='#FF0000'>Weapon Accesories</t>"",{_this call HG_fnc_dialogOnLoadItems},""HG_WeaponAttachments"",0,false,false,"""",'(alive player) && !dialog && player distance _target < 3'];  " \n "this addAction[""<img image='HG\UI\Icons\money.paa' size='1.5'/><t color='#FF0000'>AK Attachments</t>"",{_this call HG_fnc_dialogOnLoadItems},""HG_AKATTShop"",0,false,false,"""",'(alive player) && !dialog && player distance _target < 3']; " \n "this addAction[""<img image='HG\UI\Icons\grenade.paa' size='1.5'/><t color='#FF0000'>Grenades</t>"",{_this call HG_fnc_dialogOnLoadItems},""HG_GrenadeShop"",0,false,false,"""",'(alive player) && !dialog && player distance _target < 3']; " \n "this addAction[""<img image='HG\UI\Icons\equip.paa' size='1.5'/><t color='#FF0000'>Equipment</t>"",{_this call HG_fnc_dialogOnLoadItems},""HG_EquipmentShop"",0,false,false,"""",'(alive player) && !dialog && player distance _target < 3']; " \n "this addAction[""<img image='HG\UI\Icons\clothing.paa' size='1.5'/><t color='#FF0000'>Civilian Clothing</t>"",{_this call HG_fnc_dialogOnLoadGear},""HG_Clothing"",0,false,false,"""",'(alive player) && !dialog && player distance _target < 3'];  " \n "this addAction[""<img image='HG\UI\Icons\clothing.paa' size='1.5'/><t color='#FF0000'>Military Uniforms</t>"",{_this call HG_fnc_dialogOnLoadGear},""HG_MilitaryClothing"",0,false,false,"""",'(alive player) && !dialog && player distance _target < 3'];  " \n "this addAction[""<img image='HG\UI\Icons\clothing.paa' size='1.5'/><t color='#FF0000'>Suits</t>"",{_this call HG_fnc_dialogOnLoadGear},""HG_SpecialClothing"",0,false,false,"""",'(alive player) && !dialog && player distance _target < 3'];}";
 			};
 			id=303;
 			type="Land_Laptop_unfolded_F";
@@ -23711,6 +23711,17 @@ class Mission
 				};
 				nAttributes=1;
 			};
+		};
+		class Item474
+		{
+			dataType="Marker";
+			position[]={5618.1299,1.5,1433.351};
+			name="civilian_vehicles_spawn_1";
+			text="Vehicle Spawn";
+			type="mil_warning";
+			colorName="ColorCIV";
+			angle=312.65201;
+			id=2546;
 		};
 	};
 	class Connections
